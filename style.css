@@ -1,0 +1,108 @@
+:root {
+    --caribeanCurrent: #16697A;
+    /*TITULOS*/
+    --moonStone: #489FB5;
+    /*SUBTITULOS*/
+    --skyBlue: #82C0CC;
+    /*veremo*/
+    --isabelline: #EDE7E3;
+    /*BACKGROUN*/
+    --orangePill: #FFA62B;
+    /*BOTONES*/
+}
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    background-color: var(--caribeanCurrent);
+    position: sticky;
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+body {
+    background-color: var(--skyBlue);
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+header>nav>ul>li {
+    list-style-type: none;
+    display: inline;
+    color: black;
+}
+
+header>nav>ul>li>a {
+    text-decoration: none;
+    color: var(--orangePill);
+    
+}
+
+main {
+    display: flex;
+    border-radius: 5%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#fotoPortada {
+    border-radius: 50%;
+    align-items: center;
+}
+
+.botones a {
+    border-radius: 15%;
+    align-items: center;
+    text-decoration: none;
+    background-color: var(--orangePill);
+    padding: 10px;
+    font-size: medium;
+    cursor: pointer;
+}
+.botones>li{
+list-style-type: none;
+
+}
+footer .botones>li{
+    flex-direction: row;
+
+}
+.tarjetaPresentacion {
+    color: var(--isabelline);
+    width: 50%;
+}
+main div{
+text-align: center;
+}
+main .tarjetaPresentacion .presentacion{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+main>article>p{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+
+}
+main>article>p>div>h1{
+font-size: 300px;
+}
+biografia{
+    display: flex;
+}
+.piePagina .botones{
+    flex-direction: row;
+    justify-content: center;
+}
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
