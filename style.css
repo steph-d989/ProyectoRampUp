@@ -79,12 +79,12 @@ footer .botones>li {
     color: var(--caribeanCurrent);
     background-color: var(--isabelline);
     width: 75%;
-    align-content: center;
-    align-items: center;
     padding: 20px;
     margin: 20px;
-    justify-items: center;
-
+    text-align: justify;
+    justify-content: center; 
+    align-items: center;
+    display: flex;
 }
 
 main div {
@@ -108,14 +108,14 @@ main>article>p>div>h1 {
 
 
 
-.piePagina .botonSecundario {
+/* .piePagina .botonSecundario {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     list-style-type: none;
 }
 
-.piePagina .botonSecundario a {
+/* .piePagina .botonSecundario a {
     text-decoration: none;
     border-radius: 15%;
     align-items: center;
@@ -128,9 +128,8 @@ main>article>p>div>h1 {
 .piePagina {
     padding-right: 25px;
 
-}
-
-#contactForm {
+} */
+*/ #contactForm {
     display: flex;
     align-content: center;
     align-items: center;
@@ -138,6 +137,7 @@ main>article>p>div>h1 {
     justify-content: center;
     margin-bottom: 70px;
 }
+
 input[type="text"],
 input[type="email"],
 input[type="tel"],
@@ -148,6 +148,7 @@ select {
     border-radius: 20px;
     padding: 5px;
 }
+
 textarea {
     width: 100%;
     height: 60px;
@@ -155,11 +156,12 @@ textarea {
     padding: 5px;
 }
 
-fieldset{
+fieldset {
     padding-bottom: 40px;
     padding-left: 5px;
     padding-right: 20px;
 }
-#botonForm{
+
+#botonForm {
     padding-top: 30px;
 }
