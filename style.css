@@ -18,11 +18,12 @@
 header {
     background-color: var(--caribeanCurrent);
     position: sticky;
+    padding-right: 15px;
     text-align: right;
     padding-top: 5px;
     padding-bottom: 5px;
     margin-bottom: 5px;
-    margin-top: 5px;
+    margin-top: 0;
 }
 
 body {
@@ -34,14 +35,12 @@ body {
 
 header>nav>ul>li {
     list-style-type: none;
-    display: inline;
-    color: black;
+    display: inline-flex;
 }
 
 header>nav>ul>li>a {
     text-decoration: none;
     color: var(--orangePill);
-    
 }
 
 main {
@@ -49,6 +48,7 @@ main {
     border-radius: 5%;
     justify-content: center;
     flex-wrap: wrap;
+    border-right: 15px;
 }
 
 #fotoPortada {
@@ -73,9 +73,14 @@ footer .botones>li{
     flex-direction: row;
 
 }
-.tarjetaPresentacion {
-    color: var(--isabelline);
-    width: 50%;
+.cuerpoPagina {
+    color: var(--caribeanCurrent);
+    background-color: var(--isabelline);
+    width: 75%;
+    align-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
 }
 main div{
 text-align: center;
@@ -98,10 +103,12 @@ biografia{
 .piePagina .botones{
     display: flex;
     flex-direction: row;
-    justify-content: center;    
+    justify-content: space-between;    
+    align-self: stretch;
 }
 #contactForm {
     display: flex;
     align-content: center;
     align-items: center;
+    flex-direction: column;
 }
