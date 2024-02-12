@@ -22,9 +22,10 @@
     <main class="cuerpoPagina">
         <p id="contactForm">
         <form action="contacto">
-            <h1>Contacto</h1><br>
+        
         </form>
         <fieldset>
+            <legend><h1>Contacto</h1></legend>
             <label for="name">Nombre:</label>
             <input type="text" id="name" name="name" placeholder="Introduce tu nombre..." minlength="3" maxlenght="30"
                 required /> <br>
@@ -40,13 +41,15 @@
             <textarea name="comentarios" id="comment" cols="30" rows="10" placeholder="Introduce tus comentarios..."></textarea><br>
             <label for="spam"><input type="checkbox" id="spam" value="spam" name="spam" /> Doy permiso al
                 uso de mis datos.</label><br>
-            <button type="submit">Enviar</button>
+                <div class="botones">
+                    <a href="./pages/biografia.html"><b>Empecemos</b></a>
+                </div>
             </fieldset><br>
         </fieldset>
         </p>
     </main>
     <footer class="piePagina">
-        <ul class="botones">
+        <ul class="botonSecundario">
             <li><a href="./portfolio.html"><b>Previo</b></a></li>
             <li><a href="#"><b>Inicio</b></a></li>
         </ul>
