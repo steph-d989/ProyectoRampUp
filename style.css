@@ -34,7 +34,7 @@ body {
     padding: 0;
 }
 
-body .cuerpoPagina{
+body .cuerpoPagina {
     display: flex;
     align-items: center;
     align-content: center;
@@ -72,7 +72,8 @@ main {
     font-size: medium;
     transition-duration: 0.5s;
 }
-.botones a:hover{
+
+.botones a:hover {
     background-color: #16697A;
     color: #FFA62B;
 }
@@ -94,7 +95,7 @@ footer .botones>li {
     padding: 20px;
     margin: 20px;
     text-align: justify;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     display: flex;
 }
@@ -176,4 +177,26 @@ fieldset {
 
 #botonForm {
     padding-top: 30px;
+}
+
+.cuerpoPagina #fotoProgramacion {
+    width: 50%;
+}
+
+.cuerpoPagina #GifProgramacion {
+    width: 50%;
+}
+.cuerpoPagina #VideoProgramacion {
+    width: 50%;
+}
+.cuerpoPagina #AudioProgramacion {
+    width: 50%;
+}
+
+portfolio .cuerpoPagina {
+    display: flex;
+    border-image: 10%;
+}
+portfolio fieldset{
+    
 }
