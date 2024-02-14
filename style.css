@@ -28,7 +28,7 @@ header {
     padding-bottom: 5px;
     margin-bottom: 5px;
     margin-top: 0;
-    border: #FFA62B 1px solid;
+    
 }
 
 body {
@@ -38,9 +38,11 @@ body {
 }
 
 body .cuerpoPagina {
-
-    margin-bottom: 70px;
     display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-content:center;
+    margin-bottom: 70px;
     width: 80%;
 }
 
